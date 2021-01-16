@@ -1,0 +1,227 @@
+@media(max-width:1200px) {
+  .slider__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__button{
+    color: #fff;
+    font-size: 45px;
+  }
+
+  .footer__button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media(max-width:992px) {
+  .header__list_link {
+    text-align: right;
+  }
+
+  .slider__title {
+    font-size: 21px;
+  }
+
+  .slider__desccription {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .slider__controls {
+    display: none;
+  }
+}
+
+
+
+@media(max-width:768px){
+   .header__title{
+     font-size: 45px;
+     text-align: center;
+     margin-bottom: 25px;
+   }
+
+   .header__desription {
+     font-size: 20px;
+   }
+
+   .history{
+     padding: 30px 0;
+   }
+
+   .main__title{
+     margin-bottom: 20px;
+   }
+
+   .history__description{
+     font-size: 16px;
+   }
+
+   .slider__img {
+     height: 300px;
+     object-fit: cover;
+   } 
+
+   .slider__content{
+     margin-top: 20px;
+   }
+
+   .slider__title {
+     text-align: center;
+   }
+
+   .works {
+     padding-top: 20px;
+   }
+
+   .worksTabs__pane_text {
+     font-size: 14px;
+     line-height: 18px;
+   }
+
+   .worksTabs__pane_btn {
+     padding: 10px 20px;
+  }
+
+  .opportunity {
+    padding: 25px 0;
+  }
+
+  .main__title {
+    font-size: 25px;
+  }
+
+  .card-header .opportunity__link {
+    padding: 10px;
+  }
+
+  .footer .footer__list {
+    margin: 0;
+  }
+
+  .footer__list_link{
+    text-align: center;
+  }
+
+  .footer__nav {
+    padding-bottom: 0;
+  }
+
+  .footer{
+    padding-bottom: 10px;
+  }
+
+}
+
+@media(max-width:576px){
+  .header__nav {
+    padding: 0 15px;
+    justify-content: space-around;
+  }
+
+  .header__title {
+    font-size: 35px;
+  }
+
+  .header__desription{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .history{
+    padding: 20px 0;
+  }
+  .slider__description{
+    font-size: 12px;
+  }
+  .slider__img{
+    height: 250px;
+  }
+  .works__list .works__list_link{
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  .works__list{
+    margin-bottom: 0;
+  }
+  .worksTabs__pane{
+    flex-direction: column;
+  }
+  .worksTabs__pane_img{
+    width: 100%;
+    margin-left: 0;
+    height: 300px;
+  }
+  .worksTabs__pane_content{
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+  .opportunity__card_body{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer{
+    padding-top: 10px;
+  }
+
+}
+
+@media(max-width:480px){
+  .works__list .works__list_link {
+    padding: 8px 17px;
+    font-size: 14px;
+   }
+   .works__list {
+    width: 90%;
+}
+}
+
+@media(max-width:320px){
+  .history__description {
+    font-size: 13px;
+  }
+  .main__title {
+    font-size: 20px;
+  }
+  .header__title {
+    font-size: 26px;
+  }
+  .header__desription {
+    font-size: 15px;
+  }
+  .header__logo {
+    font-size: 20px;
+  }
+  .works__list .works__list_link {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+  .works__description {
+    margin-bottom: 40px;
+  }
+  .worksTabs__pane_title {
+    font-size: 20px;
+  }
+  .worksTabs__pane_text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .worksTabs__pane_btn {
+    font-size: 14px;
+  }
+  .worksTabs__pane_btn {
+    padding: 8px 15px;
+  }
+  .opportunity__card_body {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .footer___content_link {
+    font-size: 15px;
+  }
+  .header__nav .header__list .header__list_link {
+    font-size: 16px;
+  }
+}
